@@ -14,7 +14,7 @@ public class TP4 {
     }
 
     /**
-     * Fonction de recherche binaire pour chercher l'index d'un nombre dans un tableau
+     * Recherche dans un tableau trié la valeur voulu via recherche binaire
      * @param List utilisé pour chercher
      * @param First Index de depart pour le tableau
      * @param Last index de fin pour le tableau
