@@ -14,8 +14,11 @@ public class TP4 {
     }
 
     /**
-     *
-     * @param List
+     * Fonction de recherche binaire pour chercher l'index d'un nombre dans un tableau
+     * @param List utilisé pour chercher
+     * @param First Index de depart pour le tableau
+     * @param Last index de fin pour le tableau
+     * @param NumberToGet Chiffre qu'on veut chercher dans le tableau
      */
     public static void BinarySearch(int[] List, int First, int Last,  int NumberToGet){
         Arrays.sort(List);
